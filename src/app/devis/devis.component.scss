@@ -1,0 +1,67 @@
+.devisContainer {
+    background: #fff;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    position: absolute;
+
+
+    .navDevis {
+        height: 75px;
+        background: #fff;
+        border-bottom: 2px solid #ccc;
+        display: flex;
+        .brand{
+            background-color: #0d6efd;
+            color: #fff;
+            width: 55px;
+            height: 100%;       
+            align-items: center;
+            display: grid;
+            text-align: center;  
+            font-weight: 600;
+            cursor: pointer;
+        }
+        ul {
+            width: 93%;
+            height: 100%;
+            align-items: center;
+            display: inherit;
+
+            li {
+                list-style: none;
+            }
+        }
+
+
+
+        .closeDevis {
+            cursor: pointer;
+            font-size: 25px;
+            align-items: center;
+            display: inline-flex;
+            text-align: center;
+            width: 49px;
+            height: 100%;
+            text-align: center;
+            place-content: center;
+        }
+
+        .appel {
+            color: #000;
+            border-right: 2px solid #eee;
+            font-size: 20px;
+            align-items: center;
+            display: inline-flex;
+            width: 49px;
+            height: 100%;
+            text-align: center;
+            place-content: center;
+        }
+        .closeDevis:hover{
+            background: #fff4f4;
+        }
+
+
+    }
+}
